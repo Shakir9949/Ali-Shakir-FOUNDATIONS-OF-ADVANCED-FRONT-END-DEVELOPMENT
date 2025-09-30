@@ -82,8 +82,3 @@ Welcome to **Destiny Archive**, a React + Next.js web application designed to sh
 
 
 ---
-
-## 🔗 Submission Guidelines
-- Submit as a **GitHub repository link**.
-- Ensure code is **well-documented** with comments explaining key functionality.
-- Include screenshots demonstrating **all implemented functionality**.
