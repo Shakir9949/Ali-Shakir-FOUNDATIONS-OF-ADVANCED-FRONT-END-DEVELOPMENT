@@ -1,0 +1,96 @@
+/* styles/Roadmap.module.css - Nightstalker Theme */
+
+.roadmap {
+  background: #0a0a0a;
+  color: #b3b0ff;
+  min-height: 80vh;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.roadmap h2 {
+  font-size: 2rem;
+  color: #9b6cff;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+/* Controls */
+.controls {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.controls select {
+  background: #1b1b2e;
+  color: #b3b0ff;
+  border: 1px solid #5c3eff;
+  border-radius: 6px;
+  padding: 0.4rem 0.6rem;
+  cursor: pointer;
+}
+
+.controls select:hover {
+  border-color: #a78bfa;
+}
+
+/* Timeline */
+.timeline {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  max-width: 700px;
+}
+
+.timeline-item {
+  background: #121224;
+  border-left: 4px solid #5c3eff;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  transition: all 0.3s ease;
+}
+
+.timeline-item:hover {
+  border-left-color: #a78bfa;
+  background: rgba(167, 139, 250, 0.1);
+}
+
+.timeline-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.timeline-head .muted {
+  color: #7777aa;
+  font-weight: normal;
+}
+
+.timeline-body {
+  margin-top: 0.5rem;
+  color: #b3b0ff;
+  line-height: 1.5;
+}
+
+/* Replace button selector with .btn */
+.btn {
+  background: #1b1b2e;
+  color: #b3b0ff;
+  border: 1px solid #5c3eff;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: #5c3eff;
+  color: #e0dfff;
+}

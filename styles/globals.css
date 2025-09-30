@@ -1,0 +1,39 @@
+/* styles/Navbar.module.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #0d0d0d, #1a1a2e);
+  padding: 1rem 2rem;
+  border-bottom: 2px solid #5a2d82;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #a78bfa; /* Destiny purple */
+  letter-spacing: 1px;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.navLinks li a {
+  text-decoration: none;
+  color: #e0e0e0;
+  font-weight: 500;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.navLinks li a:hover {
+  color: #a78bfa;
+  border-bottom: 2px solid #a78bfa;
+  padding-bottom: 2px;
+}

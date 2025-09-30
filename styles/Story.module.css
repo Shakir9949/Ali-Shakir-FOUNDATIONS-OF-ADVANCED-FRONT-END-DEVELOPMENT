@@ -1,0 +1,69 @@
+/* styles/Story.module.css - Nightstalker Theme */
+
+.story {
+  background: #0a0a0a;
+  color: #b3b0ff;
+  min-height: 80vh;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.story h2 {
+  font-size: 2rem;
+  color: #9b6cff;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.controls input,
+.controls select {
+  background: #1b1b2e;
+  color: #b3b0ff;
+  border: 1px solid #5c3eff;
+  border-radius: 6px;
+  padding: 0.4rem 0.6rem;
+  cursor: pointer;
+  width: 250px;
+}
+
+.controls input::placeholder {
+  color: #7777aa;
+}
+
+.controls select:hover,
+.controls input:hover {
+  border-color: #a78bfa;
+}
+
+.details {
+  background: #121224;
+  padding: 1rem;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 700px;
+}
+
+.details p {
+  line-height: 1.5;
+}
+
+.muted {
+  color: #555488;
+  font-style: italic;
+  text-align: center;
+}
+
+.storyContent h3 {
+  color: #a78bfa;
+  margin-bottom: 0.5rem;
+}
