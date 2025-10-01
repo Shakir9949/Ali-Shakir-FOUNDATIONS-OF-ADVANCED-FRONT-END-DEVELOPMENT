@@ -5,7 +5,7 @@ Welcome to **Destiny Archive**, a React + Next.js web application designed to sh
 
 ---
 
-## 🚀 Application Overview
+## Application Overview
 
 ### Home Page
 - Welcome message for Guardians.
@@ -47,7 +47,7 @@ Welcome to **Destiny Archive**, a React + Next.js web application designed to sh
 
 ---
 
-## 🎨 Styling
+## Styling
 - Dark theme with purple (#a78bfa) accent highlights.
 - Cards with shadows, rounded corners, and hover effects.
 - Consistent typography and spacing for readability.
@@ -55,7 +55,7 @@ Welcome to **Destiny Archive**, a React + Next.js web application designed to sh
 
 ---
 
-## ⚙️ State Management & Event Handling
+## State Management & Event Handling
 - Each component manages its **own state** using `useState`.
 - Key interactions implemented:
   - **Toggle sections** (show/hide highlights or timeline details)
@@ -65,7 +65,7 @@ Welcome to **Destiny Archive**, a React + Next.js web application designed to sh
 
 ---
 
-## 📝 Key Concepts Demonstrated
+## Key Concepts Demonstrated
 - **Component Creation**: Three main components (`DestinyMain`, `Roadmap`, `Story`) with props.
 - **State Management**: Effective use of `useState` for dynamic UI updates.
 - **Event Handling**: Buttons, dropdowns, and search input interactions.
@@ -74,7 +74,7 @@ Welcome to **Destiny Archive**, a React + Next.js web application designed to sh
 
 ---
 
-## 📷 Screenshots
+## Screenshots
 <img width="1919" height="1039" alt="Pic 1" src="https://github.com/user-attachments/assets/0308fc48-3279-4dab-a2a9-e0e7e071d168" />
 <img width="1919" height="1041" alt="Pic 2" src="https://github.com/user-attachments/assets/8962bab1-6d3c-46df-94c7-f9c107316d47" />
 <img width="1919" height="1042" alt="Pic 3" src="https://github.com/user-attachments/assets/853b6d14-5b3c-4094-b642-009cf27c0b50" />
@@ -82,3 +82,4 @@ Welcome to **Destiny Archive**, a React + Next.js web application designed to sh
 
 
 ---
+
